@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taco Loco | Fresh Flavor, Every Bite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Taco Loco home">
+      <span class="brand-icon">🌮</span>
+      <span>TACO<br>LOCO</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+
+      <div class="nav-item dropdown">
+        <a href="#menu">Menu</a>
+        <div class="dropdown-menu">
+          <a href="#tacos">Tacos 🌮</a>
+          <a href="#bowls">Burritos &amp; Bowls</a>
+          <a href="#quesadillas">Quesadillas</a>
+          <a href="#sides">Sides &amp; Snacks</a>
+          <a href="#drinks">Drinks</a>
+          <a href="#desserts">Desserts</a>
+        </div>
+      </div>
+
+      <div class="nav-item dropdown">
+        <a href="#specials">Specials</a>
+        <div class="dropdown-menu">
+          <a href="#taco-tuesday">Taco Tuesday</a>
+          <a href="#lunch-combo">Lunch Combo</a>
+          <a href="#family-feast">Family Feast</a>
+        </div>
+      </div>
+
+      <a href="#locations">Locations</a>
+
+      <div class="nav-item dropdown">
+        <a href="#about">About Us</a>
+        <div class="dropdown-menu">
+          <a href="#our-story">Our Story</a>
+          <a href="#our-values">Our Values</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+      </div>
+
+      <a href="#order" class="order-link">Order Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">BIG FLAVOR. FRESH INGREDIENTS.</p>
+        <h1>Make every bite<br><span>a little loco.</span></h1>
+        <p class="hero-description">
+          At Taco Loco, we bring people together with freshly made tacos,
+          bold house-made salsas, and feel-good food that never cuts corners.
+          Fast, fresh, and full of flavor—there's something for everyone at our table.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="#menu">Explore the Menu</a>
+          <a class="text-link" href="#about">Get to know us <span>→</span></a>
+        </div>
+        <div class="hero-note"><span>✦</span> Made fresh daily, served with a smile.</div>
+      </div>
+      <div class="hero-image-wrap">
+        <img class="hero-image"
+          src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=1000&q=85"
+          alt="Fresh tacos with colorful toppings"
+          onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=1000&q=85';">
+        <div class="image-badge"><strong>100%</strong><span>Fresh<br>flavor</span></div>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="section-heading">
+        <p class="eyebrow">YOUR NEW FAVORITES</p>
+        <h2>Good food. <span>Good mood.</span></h2>
+        <p>Build your perfect meal from our flavor-packed favorites.</p>
+      </div>
+
+      <div class="food-grid">
+        <article class="food-card" id="tacos">
+          <img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=800&q=85" alt="Fresh street tacos">
+          <div class="food-card-content"><span class="food-tag">CUSTOMER FAVORITE</span><h3>Street Tacos</h3><p>Grilled filling, crisp onion, cilantro, and bright lime.</p><strong>$3.50 each</strong></div>
+        </article>
+        <article class="food-card" id="bowls">
+          <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=85" alt="Colorful burrito bowl with fresh vegetables">
+          <div class="food-card-content"><span class="food-tag">FRESH &amp; FILLING</span><h3>Burrito Bowls</h3><p>Rice, beans, fresh vegetables, salsa, and your choice of protein.</p><strong>$10.95</strong></div>
+        </article>
+        <article class="food-card" id="quesadillas">
+          <img src="https://images.unsplash.com/photo-1618040996337-56904b7850b9?auto=format&fit=crop&w=800&q=85" alt="Golden cheesy quesadillas">
+          <div class="food-card-content"><span class="food-tag">CHEESY COMFORT</span><h3>Quesadillas</h3><p>Golden toasted tortillas packed with melty cheese and flavor.</p><strong>$8.50</strong></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="specials-section section" id="specials">
+      <div class="specials-copy">
+        <p class="eyebrow">A LITTLE EXTRA HAPPINESS</p>
+        <h2>Today's flavor<br>is <span>on special.</span></h2>
+        <p>Bring your appetite. We've got fresh deals for lunch breaks, taco cravings, and sharing with your favorite people.</p>
+        <a class="button button-light" href="#specials-table">See the specials</a>
+      </div>
+      <div class="specials-list" id="taco-tuesday">
+        <div class="special-row"><span class="special-icon">🌮</span><div><h3>Taco Tuesday</h3><p>Mix and match classic tacos every Tuesday.</p></div><strong>$2.50</strong></div>
+        <div class="special-row" id="lunch-combo"><span class="special-icon">🥤</span><div><h3>Lunch Combo</h3><p>Two tacos, chips, salsa, and a drink.</p></div><strong>$9.99</strong></div>
+        <div class="special-row" id="family-feast"><span class="special-icon">🎉</span><div><h3>Family Feast</h3><p>A shareable spread for your whole crew.</p></div><strong>$29.99</strong></div>
+      </div>
+    </section>
+
+    <section class="section table-section" id="specials-table">
+      <div class="section-heading">
+        <p class="eyebrow">SOMETHING FOR EVERY CRAVING</p>
+        <h2>Quick look at the <span>menu</span></h2>
+        <p>Simple choices, fresh ingredients, and prices that make you smile.</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Made-fresh favorite</th><th>Starting price</th></tr></thead>
+          <tbody>
+            <tr><td id="sides">Chips &amp; House Salsa</td><td>$3.25</td></tr>
+            <tr><td>Street Tacos (each)</td><td>$3.50</td></tr>
+            <tr><td id="drinks">Fresh Lime Agua Fresca</td><td>$3.00</td></tr>
+            <tr><td id="desserts">Churro Bites</td><td>$4.50</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2e6e2?auto=format&fit=crop&w=900&q=85" alt="Fresh colorful ingredients prepared for a meal">
+      </div>
+      <div class="about-copy" id="our-story">
+        <p class="eyebrow">A NEIGHBORHOOD FAVORITE</p>
+        <h2>Fresh food.<br><span>Real connection.</span></h2>
+        <p>Taco Loco started with one simple idea: great food should be joyful, generous, and easy to share. We celebrate colorful ingredients, big-hearted service, and recipes that make an ordinary day feel special.</p>
+        <ul id="our-values">
+          <li><span>✓</span> Fresh ingredients prepared with care</li>
+          <li><span>✓</span> Bold flavor in every bite</li>
+          <li><span>✓</span> A welcoming table for everyone</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="order-banner" id="order">
+      <div><p class="eyebrow">YOUR TACO MOMENT IS CALLING</p><h2>Hungry yet?</h2><p>Make tonight delicious with Taco Loco.</p></div>
+      <a class="button button-dark" href="#contact">Start your order</a>
+    </section>
+
+    <section class="contact-strip" id="locations">
+      <div><span class="contact-symbol">📍</span><div><strong>Find your Taco Loco</strong><p>Local flavor, close to home.</p></div></div>
+      <div id="contact"><span class="contact-symbol">💬</span><div><strong>Say hola!</strong><p>hello@tacoloco.example</p></div></div>
+      <div><span class="contact-symbol">🕒</span><div><strong>We're ready when you are</strong><p>Daily · 11 AM – 9 PM</p></div></div>
+    </section>
+  </main>
+
+  <footer><a class="footer-brand" href="#home">🌮 TACO LOCO</a><p>Fresh flavor. Good company. Always a little loco.</p><small>© 2026 Yusuf Haroon. All rights reserved.</small></footer>
+</body>
+</html>
